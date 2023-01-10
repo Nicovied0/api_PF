@@ -130,7 +130,7 @@ const captureOrder = async (req, res) => {
 
 const cancelPayment = (req, res) => {
   console.log("Se cancelo la operacion");
-  res.redirect("http://localhost:3000");
+  res.redirect("https://el-campito-refugio.vercel.app");
 };
 
 module.exports = {
