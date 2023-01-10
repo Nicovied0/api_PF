@@ -28,6 +28,7 @@ dbConnect().then((res) => {
   });
 },
 
+
   (error) => {
     print.error("Connection error");
   }
